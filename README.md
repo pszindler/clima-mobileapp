@@ -1,20 +1,18 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
-
-
 # Clima ☁
 
-## Our Goal
+## My Goal
 
-The objective of this tutorial is to learn about asynchronous programming in Dart. We'll look at how to carry out time consuming tasks such as getting device location and networking to get data from the internet. 
+The goal of this project is to learn asynchronous programming in Dart by adding functionality to the application such as retrieving weather data from the API based on GPS location from the phone. As always, I try to model a beautiful UI. This time I modeled a UI designed by [Asish Sunny](https://dribbble.com/shots/11474539-Weather-App).
 
+## Funcionality
 
-## What you will create
+So far, the app is able to retrieve and present data based on location and when a city is entered. 
+When first launched, the data presented is from location. 
+The data that is presented is: City, Temperature, General weather condition (sunny, overcast, rain, snow) in the form of an icon.
 
-We’re going to make a weather app inspired by the beautiful designs made by [Olia Gozha](https://dribbble.com/shots/4663154-). By the end of the module, you'll be able to find out the live weather data in the current location of the device as well as the weather for any city you can think of!
+![2021-04-12_12h03_46](https://user-images.githubusercontent.com/72250823/114381104-09140b00-9b8b-11eb-86a3-f0a9a0c6a7d1.gif)
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/clima-demo.gif)
-
-## What you will learn
+## What I have learned
 
 - How to use Dart to perform asynchronous tasks.
 - Understand async and await.
@@ -28,7 +26,14 @@ We’re going to make a weather app inspired by the beautiful designs made by [O
 - How to use the Geolocator package to get live location data for both iOS and Android.
 - How to use the TextField Widget to take user input.
 
+## Future Goals
 
->This is a companion project to The App Brewery's Complete Flutter Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+- Replace current UI with UI designed by Arish Sunny
+- Retrieve and present additional data from the API such as weather for days ahead, air quality, sunrise/sunset.
 
+## Additional information
+
+The project would not have succeeded if not for Angela Yu's wonderful bootcamp. I encourage you to take it because it is very valuable. 
+
+>Check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
 ![End Banner](https://github.com/londonappbrewery/Images/blob/master/readme-end-banner.png)
